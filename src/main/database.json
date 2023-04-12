@@ -1,0 +1,33 @@
+{
+  "name" : "Adatbazis",
+  "tables": [
+    {
+      "name": "tabla1",
+      "attributes": [
+        {
+          "name" : "Attributum1",
+          "name" : "ID",
+          "pK" : true,
+          "fK" : false,
+          "fKReference" : "-",
+          "notNull" : true,
+          "unique" : true
+        }
+      ]
+    },
+    {
+      "name": "tabla2",
+      "attributes": [
+        {
+          "name" : "Attributum2",
+          "name" : "ID",
+          "pK" : true,
+          "fK" : false,
+          "fKReference" : "-",
+          "notNull" : true,
+          "unique" : true
+        }
+      ]
+    }
+  ]
+}
